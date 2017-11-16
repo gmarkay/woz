@@ -21,24 +21,31 @@ nav li a:hover {
   color: rgb(0, 0, 0);
 
 }
-/* main {
-  width: 50%;
-  float: left;  
-}
-aside {
-  width: 50%;
-  float: right;
-} */
+
 .container {
   background-color: wheat;
   width: 90%;
   margin: 0 auto;
 }
+
+.flex-container {
+  display: flex;
+  display: -webkit-flex;
+  width: 100%;
+  background-color: seagreen;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.flex-item {
+  background-color: hotpink;
+  margin: 1em;
+  
+}
 h1, h2, h3 {
   color: crimson;
   text-decoration: underline;
   text-transform: capitalize;
-  /* font-weight: 100;   */
+  font-weight: 100;  
   /* margin: 10 10; */
 }
 footer{
@@ -50,8 +57,8 @@ footer{
 }
 .main-img  {
   display: block;
-  margin: 0 auto;
-  width: 100%;
+  margin: 0 auto; 
+  width: 80%;
   height:400px
 }
 .page {
